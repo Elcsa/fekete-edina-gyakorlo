@@ -9,7 +9,7 @@ import Col from "react-bootstrap/esm/Col";
 export default class Footer extends Component {
     render(): ReactNode {
         return <footer className="text-center">
-            <p>Készitette: Rimoczi Daniel</p>
+            <p>Készitette: Fekete edinaa</p>
         </footer>
     }
 }

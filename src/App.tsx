@@ -4,12 +4,12 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import Container from "react-bootstrap/esm/Container";
-import FooterCustom from './components/FooterCustom';
+import FooterCustom from './components/labcustom';
 import 'react-router-dom'
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import Fooldal from './components/Fooldal';
-import Navbar from './components/Navbar';
-import Bemutatkozas from './components/Bemutatkozas';
+import Fooldal from './components/fo';
+import Navbar from './components/navi';
+import bemutat from './components/bemutat';
 import Kapcsolat from './components/kapcsolat';
 
 
@@ -20,7 +20,7 @@ import Kapcsolat from './components/kapcsolat';
        <Navbar/>
         <Routes>
           <Route path='/'  element={<Fooldal/>} />
-          <Route path='bemutatkozas' element={<Bemutatkozas/>}  />
+          <Route path='bemutatkozas' element={<bemutat/>}  />
           <Route path='kapcsolat' element={<Kapcsolat/>}  />
         </Routes>
       
